@@ -24,11 +24,12 @@ public class FindMaxFruitCountFunction {
 				j++;
 			}
 
-			// Remove the fruit when we have more than 2
+			// Remove the fruit when we have more than 2 fruits in our map
 			if (map.size() > 2) {
+				// given: tree[i] < tree.length
 				int min = tree.length - 1;
 
-				// Get the least index
+				// Get the least index from hashmap
 				for (int value : map.values()) {
 					min = Math.min(min, value);
 				}
