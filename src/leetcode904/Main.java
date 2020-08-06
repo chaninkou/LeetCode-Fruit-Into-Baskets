@@ -1,4 +1,4 @@
-package fruits;
+package leetcode904;
 
 import java.util.Arrays;
 
