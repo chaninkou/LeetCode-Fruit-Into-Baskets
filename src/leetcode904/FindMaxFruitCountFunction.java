@@ -8,7 +8,7 @@ public class FindMaxFruitCountFunction {
 			return 0;
 		}
 
-		// Key is each unique fruits, value is the last index that was seen
+		// Key is each unique fruits, value is the last index seen
 		HashMap<Integer, Integer> map = new HashMap<>();
 
 		// Sliding windowing method
